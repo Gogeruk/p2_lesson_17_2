@@ -1,0 +1,124 @@
+///////  PART 1
+
+////    DONE    ////
+Реализовать интерфейс для адаптера,
+который необходимо задействовать при использовании библиотек парсинга IP.
+В интерфейсе должны быть методы, возвращающие следующую информацию:
+
+- код континента
+
+- код страны
+////    DONE    ////
+
+
+LETS FUCKING GOOOOOOOOOOOOOO
+https://www.youtube.com/watch?v=jASoGkYrtRk
+
+
+
+www/app/Providers/IpLookupAdapterSericeProvider.php
+www/config/app.php
+www/app/Http/Controllers/IpLookupController.php
+www/routes/web.php
+www/resources/views/pages/ip-lookup.blade.php
+www/app/Service/IpLookup/*
+
+
+
+///////  PART 2
+
+Реализовать интерфейс для адаптера,
+который необходимо задействовать при использовании библиотек парсинга UserAgent.
+В интерфейсе должны быть методы, возвращающие следующую информацию:
+
+- название браузера
+
+- название операционной системы
+
+
+Реализовать адаптер для одной из библиотек,
+которые можно взять с одного из прошлых домашних заданий.
+
+www/app/Providers/UserAgentAdapterSericeProvider.php
+www/config/app.php
+www/app/Http/Controllers/UserAgentController.php
+www/routes/web.php
+www/resources/views/pages/useragent.blade.php
+www/app/Service/Useragent/*
+
+
+
+//
+composer COMPOSER_MEMORY_LIMIT=-1 require ua-parser/uap-php
+//
+
+
+
+REEEEEEEEEEEEEEEEEEEEEEEEEEEE
+MY HATRED IS ETERNAL
+BOLOOD FOR THE BOLDD GOD!!!
+AAAAAAAAAAAAAAAAAAAAA
+//
+Не увидел миграции
+ на таблицу visit и сохранение данной информации в БД.
+//
+
+new task has been acquired!
+
+1. create visit table
+2. every time a user visits you must collect his ip adress and user-a
+
+1)
+php artisan make:model Visit
+
+php artisan make:migration create_visits_table
+
+2)
+chaged visits migration
+
+3)
+contriller for auto add info into table
+
+
+www/database/migrations/2021_03_23_020330_create_visits_table.php
+www/app/Models/Visit.php
+www/app/Http/Livewire/ShowAds.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
